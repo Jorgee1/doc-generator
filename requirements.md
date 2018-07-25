@@ -9,10 +9,9 @@ numpy==1.15.0
 pandas==0.23.3
 pefile==2017.11.5
 PyInstaller==3.3.1
-pypiwin32==223
 python-dateutil==2.7.3
 python-docx==0.8.6
 pytz==2018.5
-pywin32==223
 six==1.11.0
 xlrd==1.1.0
+PyQt5==5.9

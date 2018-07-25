@@ -6,8 +6,10 @@ import time
 import os
 from docxtpl import DocxTemplate
 
+#pyuic5 mainWindow.ui -o mainUI.py
+
 SRC = "DataSet/"
-PTH = SRC + "JSON/"
+PTH = SRC + "Out/"
 COL = ["ID","ENLACE","INICIO","FIN","T interr","DIRECCIÓN","BW","PROT"]
 jData = {
 	"fecha_notificacion": time.strftime("%d/%m/%Y"),
@@ -32,7 +34,7 @@ company = data["OPERADOR"].unique().tolist()
 
 print("Inicio\n")
 
-for op in company: 
+for op in company:
 	# Ciclo de operadores
 
 	values = data.loc[ data["OPERADOR"] == op]
@@ -67,32 +69,3 @@ for op in company:
 		print(op)
 
 print("\nFIN")
-
-
-
-"""
-for i in COL:
-	jData["tbl_content"].append({"cols" : [str(elm) for elm in tempData[i].tolist()]})
-"""
-
-"""
-file.sheet_names   # Muestra los nombres de las hojas
-
-data = file.parse("Hoja") #Seleccinar hoja y entrega datos RAW
-
-data.columns
-values[[C1,C2,C3,C4]][C1][0]
-"""
-
-""" Guardar archivo
-file = open("ARCHIVO", "w+")
-json.dump(self.data, file, indent=4)
-file.close()
-
-companys = data["OPERADOR"].unique()
-
-for i in companys:
-	values = data.loc[ data["OPERADOR"] == i ]
-	for j in test.index.tolist():
-		values[j]
-"""
