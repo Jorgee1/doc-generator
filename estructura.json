@@ -1,0 +1,46 @@
+{
+	"fecha_notificacion": "dd/mm/aaaa",
+	"ciudad": "Ciudad",
+	"nodo": "Nodo",
+	"fecha_hora": "dd/m/aaaa HH:mm",
+	"duracion": "HH:mm",
+	"col_labels": ["ID","ENLACE","INICIO","FIN","T interr","DIRECCIÓN","BW","PROT"],
+	"tbl_content": [
+		{
+			"cols":[
+				"asdf1",
+				"asdf1",
+				"asdf1",
+				"asdf1",
+				"asdf1",
+				"asdf1",
+				"asdf1",
+				"asdf1"
+			]
+		},
+		{
+			"cols":[
+				"asdf2",
+				"asdf2",
+				"asdf2",
+				"asdf2",
+				"asdf2",
+				"asdf2",
+				"asdf2",
+				"asdf2"
+			]
+		},
+		{
+			"cols":[
+				"asdf3",
+				"asdf3",
+				"asdf3",
+				"asdf3",
+				"asdf3",
+				"asdf3",
+				"asdf3",
+				"asdf3"
+			]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+__pycache__/*
+Template/*
+vPython/*
+Result/*
+DataSet/*
+dist/*
+build/*
+*.docx
+*.spec
