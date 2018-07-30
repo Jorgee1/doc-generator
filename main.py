@@ -68,14 +68,3 @@ w.show()
 sys.exit(app.exec_())
 w.end()
 w.task.stop_thread()
-
-"""
-deja en remojo
-las pela
-
-10 almedra con 10 tasas de agua
-la muele y la cuela
-
-un poquito de miel
-
-"""
