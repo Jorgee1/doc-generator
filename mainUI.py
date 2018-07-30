@@ -11,7 +11,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(263, 480)
+        MainWindow.resize(263, 470)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
@@ -30,9 +30,9 @@ class Ui_MainWindow(object):
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
-        self.actionAbrir = QtWidgets.QAction(MainWindow)
-        self.actionAbrir.setObjectName("actionAbrir")
-        self.menuOpciones.addAction(self.actionAbrir)
+        self.actionOpenFIle = QtWidgets.QAction(MainWindow)
+        self.actionOpenFIle.setObjectName("actionOpenFIle")
+        self.menuOpciones.addAction(self.actionOpenFIle)
         self.menubar.addAction(self.menuOpciones.menuAction())
 
         self.retranslateUi(MainWindow)
@@ -43,5 +43,5 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.pushButton.setText(_translate("MainWindow", "OK"))
         self.menuOpciones.setTitle(_translate("MainWindow", "Opciones"))
-        self.actionAbrir.setText(_translate("MainWindow", "Abrir"))
+        self.actionOpenFIle.setText(_translate("MainWindow", "Abrir"))
 
