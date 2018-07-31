@@ -56,9 +56,8 @@ class Task:
     def generate_formats(self):
 
         PTH = "Out"
-
+        temp_PTH = PTH
         if os.path.exists(PTH):
-            temp_PTH = PTH
             index = 0
             while True:
                 if os.path.exists(temp_PTH + '_' + str(index)):
