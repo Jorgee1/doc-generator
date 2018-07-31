@@ -8,7 +8,7 @@ from PyQt5.QtCore import (QCoreApplication, Qt, QEvent)
 from mainUI import Ui_MainWindow
 from format_generator import Task
 
-
+# https://stackoverflow.com/questions/50635881/pyinstaller-importerror-c-extension-no-module-named-np-datetime-not-built
 
 class Qfile(QListWidgetItem):
     def __init__(self, path, parent=None):
